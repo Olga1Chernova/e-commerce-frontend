@@ -1,8 +1,10 @@
-import Login from '../src/pages/Login.jsx'
+import {LoginPage} from "./pages/LoginPage";
 const Routes = () => {
   return (
-    <><Login/></>
+    <>
+      <LoginPage />
+    </>
   )
 }
 
-export default Routes
+export default Routes;
